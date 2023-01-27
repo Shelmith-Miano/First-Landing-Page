@@ -1,0 +1,52 @@
+
+
+  /* my styles */
+
+  .login{
+    width: 40%;
+    padding: 30px;
+    margin: 110px auto;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    display: block;
+  }
+ .login h3{
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+ }
+ .login p{
+    text-align: center;
+
+ }
+  .login-container{
+    margin: auto;
+    background-color: white;
+  }
+  .form-inputs{
+    display: block;
+  }
+  .form-control{
+    display: block;
+    border-radius: 5px;
+    width: 95%;
+    outline: none;
+    border: none;
+    padding: 15px;
+    margin: 5px;
+  }
+  label{
+    display: block;
+    padding: 5px;
+  }
+
+  #login-submit{
+    background-color: blue;
+    padding: 15px;
+    width: 100%;
+    margin: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+  }

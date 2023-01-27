@@ -70,6 +70,31 @@ a {
     padding-right: 2rem;
     
 }
+.us{
+  background-color: black;
+  color: white;
+  padding: 40px 40px;
+}
+.message{
+  /* background-color:purple; */
+  color: black;
+  padding: 40px 40px;
+}
+.message h2{
+  display: grid;
+}
+.message p{
+  color: black;
+}
+.pip a{
+  background-color: rgb(219, 212, 212);
+  color: black;
+  /* border: 10px; */
+  border-radius: 10px;
+}
+.form{
+
+}
 
 * {box-sizing: border-box;}
 
@@ -152,6 +177,8 @@ a {
   .btn-1{
 
     margin: 30px auto;
+    text-align: center;
+    /* width: 300px; */
   }
   .about{
     display: flex;
@@ -401,6 +428,7 @@ a {
     text-align: center;
     width: 100%;
     border: none;
+    box-shadow: 1px -4px -4px 1px;
 
 
   }
@@ -421,11 +449,10 @@ a {
     font-size: 25px;
   }
     
-  .trust{
+  .trust h1{
     background-color: white;
-    color: black;
-  
-    
+    color: black; 
+    padding: 20px 20px;
   }
   .point{
     background-color: black;
@@ -435,18 +462,21 @@ a {
     border-radius: 10px;
   }
   .rocket{
-    background-color: whitesmoke  ;
-    display: grid;
     margin: 10px;
     padding: 10px;
-    border-color: black;
+    border: 1px solid grey;
     border-radius: 10px;
-    border: 1px solid white;
+    display: grid;
+    height: 200px;
   }
-  .rocket h4{
-    text-align: center;
+  .point{
+    height: 40px;
     
   }
+  /* .rocket h4{
+    text-align: center;
+    
+  } */
   .coin{
     display: grid;
     grid-template-columns: 5fr 5fr 5fr 5fr 5fr 5fr;
@@ -458,18 +488,30 @@ a {
   .sanders{
     display: grid;
     grid-template-columns: 5fr 5fr 5fr 5fr;
+    border-radius: 10px;
+    border: 1px solid white;
   }
   .support{
     margin: 10px;
     padding: 10px;
-    border-color: black;
+    border: 1px solid grey;
     border-radius: 10px;
-    border: 1px solid white;
   }
-  .img.img img{
+  .support img{
     display: block;
+    border-radius: 100px;
     
   }
+  .img{
+    padding: 20px;
+    background-color: rgb(102, 102, 206);
+    width: 10px;
+    height: 10px;
+    margin: 10px auto;
+    border-radius: 0%;
+  }
+  
+ 
   footer {
     background-color: black;
     color: white;
@@ -484,6 +526,12 @@ a {
   }
   .letter{
     display:grid;
+
+  }
+  .email{
+    background-color: black;
+    color: white;
+    border: 10px;
   }
   .button{
     background-color:blue;
@@ -501,6 +549,17 @@ a {
   /* .colmn link{
     display: grid;
   } */
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
   
 
 /* Add responsiveness - On small screens, display the navbar vertically instead of horizontally */
